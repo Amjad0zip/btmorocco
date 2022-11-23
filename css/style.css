@@ -1082,6 +1082,29 @@ ul.social_icon li a i {
 ul.social_icon li a i:hover {
      color: #78f5c5;
 }
+/*register icon */
+ul.register_icon {
+     float: right;
+     margin-top: 17px;
+}
+
+ul.register_icon li {
+     display: inline-block;
+     margin-left: 15px;
+}
+
+ul.register_icon li a i {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     font-size: 31px;
+     color: black;
+}
+
+ul.register_icon li a i:hover {
+     color: #78f5c5;
+}
 
 
 /** end contact section **/
@@ -1108,7 +1131,7 @@ ul.social_icon li a i:hover {
 }
 
 .copyright a:hover {
-     color: #5d9c80;
+     color: #f4a111;
 }
 
 
@@ -1155,82 +1178,15 @@ ul.social_icon li a i:hover {
 .inner_page .footer {
      margin-top: 90px;
 }
-/*gallery*/
-
-*,
-*::before,
-*::after {
-     margin: 0;
-     padding: 0;
-     outline: none;
-     box-sizing: border-box;
+/*register*/
+.text-primary {
+  color: #33ff00 !important;
 }
-.containner {
-     margin: 0 auto;
-     max-width: 700px;
-     max-height: 100vh;
-     background-color: white;
+.package-item:hover {
+  box-shadow: 0 0 30px #CCCCCC;
 }
 
-
-/* Useful Classes */
-.xy-center {
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
+.bg-registration {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/carousel-1.jpg), no-repeat center center;
+  background-size: cover;
 }
-
-.trransition {
-     transition: all 350ms ease-in-out;
-}
-
-.r-3-2 {
-     width: 100%;
-     padding-bottom: 66.667%;
-     background-color: #ddd;
-}
-
-.image-holder {
-     background-size: cover;
-     background-position: center center;
-     background-repeat: no-repeat;
-}
-
-/* Main Styles */
-.gallery-wrapper {
-     position: relative;
-     overflow: hidden;
-}
-
-.gallery {
-     position: relative;
-     white-space: nowrap;
-     font-size: 0;
-}
-
-.item-wrapper {
-     cursor: pointer;
-     width: 15%; /* arbitrary value */
-     display: inline-block;
-     background-color: white;
-}
-
-.gallery-item { opacity: 0.5; }
-.gallery-item.active { opacity: 1; }
-
-.controls{
-     font-size: 0;
-     border-top: none;
-}
-.move-btn {
-     display: inline-block;
-     width: 50%;
-     border: none;
-     color: #ccc;
-     background-color: transparent;
-
-}
-.move-btn:first-child {border-right: none;}
-.move-btn.left  { cursor: w-resize; }
-.move-btn.right { cursor: e-resize; }
