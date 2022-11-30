@@ -593,6 +593,26 @@ video {
      color: #fff;
      transition: ease-in all 0.5s;
 }
+.read_moree {
+     font-size: 25px;
+     background-color: #413c31;
+     color: #fff;
+     padding: 0px 0px;
+     width: 180px;
+     max-width: 157px;
+     text-align: center;
+     display: inline-block;
+     transition: ease-in all 0.5s;
+     font-weight: 500;
+     border-radius: 5px;
+     height: 50px;
+}
+
+.read_moree:hover {
+     background: #78f5c5;
+     color: #fff;
+     transition: ease-in all 0.5s;
+}
 
 
 /* play */
@@ -1131,7 +1151,7 @@ ul.register_icon li a i:hover {
 }
 
 .copyright a:hover {
-     color: #f4a111;
+     color: #78f5c5;
 }
 
 
@@ -1185,8 +1205,20 @@ ul.register_icon li a i:hover {
 .package-item:hover {
   box-shadow: 0 0 30px #CCCCCC;
 }
-
+.bg-primary {
+  background-color:  #5d9c80 !important;
+}
 .bg-registration {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/carousel-1.jpg), no-repeat center center;
   background-size: cover;
+}
+.containerr {
+  height: 200px;
+  position: relative;
+}
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
